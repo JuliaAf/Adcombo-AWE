@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&amp;subset=cyrillic,latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery.bxslider2.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -17,10 +17,10 @@
   <div class="wrapper">
     <nav class="nav">
       <ul>
-        <li><a href="">AWE SPEAKER Ella Mak</a></li>
-        <li><a href="">Meet AdCombo Team</a></li>
-        <li><a href="">Arrange the meeting</a></li>
-        <li><a href="">Become one of AdCombo heroes</a></li>
+        <li><a href="#speaker">AWE SPEAKER Ella Mak</a></li>
+        <li><a href="#team">Meet AdCombo Team</a></li>
+        <li><a href="#meeting">Arrange the meeting</a></li>
+        <li><a href="#hero">Become one of AdCombo heroes</a></li>
       </ul>
     </nav>
     <div class="ac-logo">
@@ -47,7 +47,7 @@
   </video>
   <div class="darken"></div>
 </header>
-<section class="speaker">
+<section class="speaker" id="speaker">
   <div class="wrapper">
     <div class="speaker__left">
       <ul class="speaker__slider">
@@ -79,19 +79,20 @@
     </div>
   </div>
 </section>
-<section class="scheme">
+<section class="scheme" id="team">
   <div class="wrapper">
     <h3>Meet AdCombo Team</h3>
     <div class="scheme__img">
-      <div class="scheme__hint">
-        <img src="img/logo.png" alt="">
-        <p>AdCombo is a CPA affiliate network with exclusive offers targeted on Europe, Asia and Latin America. The strongest niches are beauty products, weight loss, health and adult products with an absolutely new scheme of conversion: only 2 lines to fill in, cash on delivery. We pay twice a week via PayPal, Paxum, Wire, ePayments, Payoneer, and WebMoney.</p>
-        <b>MEET US TO TALK ABOUT NATIVE, SOCIAL, APPS, LEAD GENERATION, MONETISATION</b>
-      </div>
+    </div>
+    <div class="scheme__hint">
+      <div class="scheme__hint-close"></div>
+      <img src="img/logo.png" alt="">
+      <p>AdCombo is a CPA affiliate network with exclusive offers targeted on Europe, Asia and Latin America. The strongest niches are beauty products, weight loss, health and adult products with an absolutely new scheme of conversion: only 2 lines to fill in, cash on delivery. We pay twice a week via PayPal, Paxum, Wire, ePayments, Payoneer, and WebMoney.</p>
+      <b>MEET US TO TALK ABOUT NATIVE, SOCIAL, APPS, LEAD GENERATION, MONETISATION</b>
     </div>
   </div>
 </section>
-<section class="hero">
+<section class="hero" id="hero">
   <div class="wrapper">
     <h3>
       <div><span>Become one</span></div>
@@ -105,7 +106,7 @@
     </div>
   </div>
 </section>
-<section class="team">
+<section class="team" id="meeting">
   <div class="wrapper">
     <h3>Arrange the meeting with AdCombo Team</h3>
     <ul>
@@ -114,15 +115,15 @@
           <div class="team__img"></div>
         </div>
         <div class="team__about">
-          <div class="team__name">Ella Mak</div>
+          <div class="team__name">Nina Nguen</div>
           <div class="team__connect">
-            <a href="" target="_blank">
-              <img src="img/facebook.png" alt="">
-            </a>
-            <!-- <a href="" target="_blank">
+            <a href="https://nineladcombo.youcanbook.me/" target="_blank">
               <img src="img/book.png" alt="">
               <span>you can book me</span>
-            </a> -->
+            </a>
+            <a href="https://www.facebook.com/ninelnguyenadcombo?fref=ts" target="_blank">
+              <img src="img/facebook.png" alt="">
+            </a>
           </div>
         </div>
       </li>
@@ -134,32 +135,16 @@
           <div class="team__name">Olesia Zubareva</div>
           <div class="team__connect">
             <a href="https://adcombo-advertising.youcanbook.me/" target="_blank">
-              <img src="img/facebook.png" alt="">
-            </a>
-            <a href="https://adcombo-advertising.youcanbook.me/" target="_blank">
               <img src="img/book.png" alt="">
               <span>you can book me</span>
+            </a>
+            <a href="https://www.facebook.com/o.v.zybareva?fref=ts" target="_blank">
+              <img src="img/facebook.png" alt="">
             </a>
           </div>
         </div>
       </li>
-      <li class="team__unit">
-        <div class="team__img-cont">
-          <div class="team__img"></div>
-        </div>
-        <div class="team__about">
-          <div class="team__name">Nina Nguen</div>
-          <div class="team__connect">
-            <a href="https://nineladcombo.youcanbook.me/" target="_blank">
-              <img src="img/facebook.png" alt="">
-            </a>
-            <a href="https://nineladcombo.youcanbook.me/" target="_blank">
-              <img src="img/book.png" alt="">
-              <span>you can book me</span>
-            </a>
-          </div>
-        </div>
-      </li>
+
       <li class="team__unit">
         <div class="team__img-cont">
           <div class="team__img"></div>
@@ -167,12 +152,12 @@
         <div class="team__about">
           <div class="team__name">Dayana Shyptinova</div>
           <div class="team__connect">
-            <a href="" target="_blank">
-              <img src="img/facebook.png" alt="">
-            </a>
-            <a href="" target="_blank">
+            <a href="" target="_blank" class="disabled">
               <img src="img/book.png" alt="">
               <span>you can book me</span>
+            </a>
+            <a href="https://www.facebook.com/shuptinova?fref=ts" target="_blank">
+              <img src="img/facebook.png" alt="">
             </a>
           </div>
         </div>
@@ -184,10 +169,10 @@
   <div class="wrapper">
     <nav class="nav">
       <ul>
-        <li><a href="">AWE SPEAKER Ella Mak</a></li>
-        <li><a href="">Meet AdCombo Team</a></li>
-        <li><a href="">Arrange the meeting</a></li>
-        <li><a href="">Become one of AdCombo heroes</a></li>
+        <li><a href="#speaker">AWE SPEAKER Ella Mak</a></li>
+        <li><a href="#team">Meet AdCombo Team</a></li>
+        <li><a href="#meeting">Arrange the meeting</a></li>
+        <li><a href="#hero">Become one of AdCombo heroes</a></li>
       </ul>
     </nav>
     <div class="awe-logo">

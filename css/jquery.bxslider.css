@@ -24,8 +24,8 @@ ul.bxslider {
   list-style: none;
 }
 .bx-viewport {
-  height: auto !important;
   /*fix other elements on the page moving (on Chrome)*/
+  z-index: 2;
 
   -webkit-transform: translatez(0);
 }
@@ -38,7 +38,7 @@ ul.bxslider {
 .bx-wrapper .bx-controls-auto {
   position: absolute;
   right: -20px;
-  bottom: 30px;
+  bottom: 10px;
 
   width: 100%;
 }
@@ -196,7 +196,7 @@ ul.bxslider {
   background: url(../img/arrow.png) no-repeat;
 }
 .bx-wrapper .bx-next {
-  right: 47px;
+  right: 43px;
 
   background: url(../img/arrow.png) no-repeat;
   transform: rotate(180deg);
