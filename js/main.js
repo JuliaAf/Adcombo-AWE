@@ -1,11 +1,18 @@
 $(document).ready(function(){
 	/*slider*/
-	$('.speaker__slider').bxSlider({
+	var slider = $('.speaker__slider').bxSlider({
 		mode:"fade",
 		auto: true,
 		speed:1000,
-		pause:5000,
-		controls:true
+		pause:2500,
+		controls:true,
+		infiniteLoop: true,
+		autoStart: true,
+		autoControls:true,
+		onSlideAfter: function() {
+			 slider.stopAuto();
+			 slider.startAuto();
+	 }
 	});
 
 

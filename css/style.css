@@ -281,7 +281,6 @@ h4 {
   height: 450px;
 
   background: url(../img/scheme.png) no-repeat center;
-  background-size: 100% auto;
   cursor: pointer;
 }
 .scheme__hint {
@@ -481,6 +480,9 @@ h4 {
   font-size: 22px;
 
   background: #ffffff;
+}
+.team__department {
+  font-size: 16px;
 }
 .team__about a {
   display: inline-block;
@@ -795,7 +797,7 @@ h4 {
 
     font-size: 20px;
   }
-  .team__name {
+  .team__department {
     margin-bottom: 4px;
   }
   .team__about a {
